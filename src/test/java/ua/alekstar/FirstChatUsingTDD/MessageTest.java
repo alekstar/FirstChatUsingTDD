@@ -9,4 +9,10 @@ public class MessageTest {
         Message message = Message.create();
         assertEquals("", message.getText());
     }
+
+    @Test
+    public void getTextFromMessageShouldReturnHelloWorld() {
+        Message message = Message.create("Hello, World!");
+        assertEquals("Hello, World!", message.getText());
+    }
 }
