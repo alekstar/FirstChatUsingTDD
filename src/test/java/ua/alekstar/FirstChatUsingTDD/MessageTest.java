@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 public class MessageTest {
     @Test
-    public void getTextFromMessageShouldEmptyString() {
+    public void getTextFromMessageShouldReturnEmptyString() {
         Message message = Message.create();
         assertEquals("", message.getText());
     }
