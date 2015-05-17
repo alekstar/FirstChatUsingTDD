@@ -14,8 +14,8 @@ public class Chat {
         return new Chat();
     }
 
-    public void addMessage(Message helloWorld) {
-        getMessagesList().add(helloWorld);
+    public void addMessage(Message message) {
+        getMessagesList().add(message);
     }
 
     protected List<Message> getMessagesList() {
